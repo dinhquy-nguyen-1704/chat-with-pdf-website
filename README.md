@@ -42,3 +42,8 @@ After that, run create_vector_db.py
 ```
 python create_vector_db.py
 ```
+When the above command is completed, two files named **index.faiss** and **index.pkl** will appear in the vectorstores directory.
+Now, you can use chatbot to ask questions about the information in the your_file.pdf file in the command line environment.
+```
+python qa_bot.py --question "your_question"
+```

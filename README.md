@@ -14,7 +14,8 @@ pip install -r requirements.txt
 ```
 ## 3. Inference
 ### 3.1 chat-with-pdf
-First, change to the **chat-with-pdf** directory.
+First, change to the **chat-with-pdf** directory, create new folder **models** and download models (**llm model** and **embedding model**) you want to use.
 ```
-cd chat-with-pdf
+cd chat_with_pdf
+mkdir models
 ```

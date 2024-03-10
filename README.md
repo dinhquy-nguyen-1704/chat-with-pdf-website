@@ -39,7 +39,7 @@ Then, download models (**LLM** and **embedding model**) you want to use. In my s
   - 📄 README.md
   - 📄 requirements.txt
 
-> Delete 2 files **index.faiss** and **index.pkl** **vectorstores** if you want to use **your_file.pdf**
+> Delete 2 files **index.faiss** and **index.pkl** in **vectorstores** if you want to use **your_file.pdf**
 After that, run file create_vector_db.py
 ```
 python create_vector_db.py

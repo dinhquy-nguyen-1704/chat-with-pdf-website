@@ -39,12 +39,12 @@ Then, download models (**LLM** and **embedding model**) you want to use. In my s
   - 📄 README.md
   - 📄 requirements.txt
 
-> Delete 2 files **index.faiss** and **index.pkl** if you want to use **your_file.pdf**
+> Delete 2 files **index.faiss** and **index.pkl** **vectorstores** if you want to use **your_file.pdf**
 After that, run file create_vector_db.py
 ```
 python create_vector_db.py
 ```
-When the above command is completed, two files named **index.faiss** and **index.pkl** will appear in the **vectorstores**.
+When the above command is completed, two files named **index.faiss** and **index.pkl** in will appear in the **vectorstores**.
 
 Now, you can use chatbot to ask questions about the information in the **your_file.pdf** file in the command line environment.
 ```

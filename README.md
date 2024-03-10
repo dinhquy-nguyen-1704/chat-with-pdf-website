@@ -74,3 +74,11 @@ You can paste a link to any website and ask for information related to that webs
 <p align="center">
   <em>Streamlit GUI</em>
 </p>
+
+## 4. Contact
+If you have any questions or feedback, please open an issue in this repository <br/>
+or send an email to nguyendinhquythptcla@gmail.com.
+
+## 5. Reference
+- [chat-with-websites](https://github.com/alejandro-ao/chat-with-websites)
+- [Langchain](https://python.langchain.com/docs/get_started/introduction)

@@ -63,3 +63,7 @@ import os
 os.environ["OPENAI_API_KEY"] = "sk-..."
 api_key = os.getenv("OPENAI_API_KEY")
 ```
+Now, you can run the **app.py** file and a Streamlit chatbot interface will appear.
+```
+python -m streamlit run app.py
+```

@@ -67,7 +67,7 @@ Now, you can run the **app.py** file and a Streamlit chatbot interface will appe
 ```
 python -m streamlit run app.py
 ```
-You can paste the website link and ask questions related to that website.
+You can paste a link to any website and ask for information related to that website.
 <p align="center">
   <img width="800" alt="Streamlit GUI" src="https://github.com/dinhquy-nguyen-1704/chat-with-pdf-website/assets/127675330/22917f92-bca7-44dc-89e1-4c50ba44adfe">
 </p>

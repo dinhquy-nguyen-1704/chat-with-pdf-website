@@ -12,3 +12,5 @@ conda activate chat-with-pdf-website
 ```
 pip install -r requirements.txt
 ```
+## 3. Inference
+### 3.1 chat-with-pdf

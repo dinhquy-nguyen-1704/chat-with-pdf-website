@@ -67,3 +67,4 @@ Now, you can run the **app.py** file and a Streamlit chatbot interface will appe
 ```
 python -m streamlit run app.py
 ```
+You can paste the website link and ask questions related to that website.

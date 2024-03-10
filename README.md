@@ -21,3 +21,20 @@ mkdir models
 ```
 Then, download models (**LLM** and **embedding model**) you want to use. In my source code, the default LLM is [vinallama-2.7b-chat_q5_0.gguf](vinallama-2.7b-chat_q5_0.gguf) and the default embedding model is [all-MiniLM-L6-v2-f16.gguf](https://huggingface.co/caliex/all-MiniLM-L6-v2-f16.gguf/tree/main). You should organize the folder structure as follows:
 
+- 📁 chat-with-pdf-website
+  - 📁 chat-with-pdf
+    - 📂 data
+      - 📄 your_file.pdf
+    - 📁 models
+      - all-MiniLM-L6-v2-f16.gguf
+      - vinallama-2.7b-chat_q5_0.gguf
+    - 📁 vectorstores
+    - 🐍 config.py
+    - 🐍 create_vector_db.py
+    - 🐍 qa_bot.py
+    - 🐍 utils.py
+  - 📁 chat-with-website
+    - 🐍 utils.py
+    - 🐍 app.py
+  - 📄 README.md
+  - 📄 requirements.txt

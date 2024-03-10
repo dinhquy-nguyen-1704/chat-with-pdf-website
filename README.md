@@ -14,8 +14,10 @@ pip install -r requirements.txt
 ```
 ## 3. Inference
 ### 3.1 chat-with-pdf
-First, change to the **chat-with-pdf** directory, create new folder **models** and download models (**llm model** and **embedding model**) you want to use.
+First, change to the **chat-with-pdf** directory and create new folder **models**.
 ```
 cd chat_with_pdf
 mkdir models
 ```
+Then, download models (**LLM** and **embedding model**) you want to use. In my source code, the default LLM is [vinallama-2.7b-chat_q5_0.gguf](vinallama-2.7b-chat_q5_0.gguf) and the default embedding model is [all-MiniLM-L6-v2-f16.gguf](https://huggingface.co/caliex/all-MiniLM-L6-v2-f16.gguf/tree/main). You should organize the folder structure as follows:
+

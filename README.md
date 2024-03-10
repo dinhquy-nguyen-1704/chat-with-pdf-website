@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 ## 3. Inference
 ### 3.1 chat-with-pdf
-First, change to the **chat-with-pdf** directory and create new folder **models**.
+First, change to the **chat_with_pdf** directory and create new folder **models**.
 ```
 cd chat_with_pdf
 mkdir models
@@ -22,7 +22,7 @@ mkdir models
 Then, download models (**LLM** and **embedding model**) you want to use. In my source code, the default LLM is [vinallama-2.7b-chat_q5_0.gguf](vinallama-2.7b-chat_q5_0.gguf) and the default embedding model is [all-MiniLM-L6-v2-f16.gguf](https://huggingface.co/caliex/all-MiniLM-L6-v2-f16.gguf/tree/main). You should organize the folder structure as follows:
 
 - 📁 chat-with-pdf-website
-  - 📁 chat-with-pdf
+  - 📁 chat_with_pdf
     - 📂 data
       - 📄 your_file.pdf
     - 📁 models
@@ -33,7 +33,7 @@ Then, download models (**LLM** and **embedding model**) you want to use. In my s
     - 🐍 create_vector_db.py
     - 🐍 qa_bot.py
     - 🐍 utils.py
-  - 📁 chat-with-website
+  - 📁 chat_with_website
     - 🐍 utils.py
     - 🐍 app.py
   - 📄 README.md
@@ -50,4 +50,10 @@ When the above command is completed, two files named **index.faiss** and **index
 Now, you can use chatbot to ask questions about the information in the **your_file.pdf** file in the command line environment.
 ```
 python qa_bot.py --question "your_question"
+```
+
+## 3.2 chat-with-website
+First, change to the **chat_with_website** directory
+```
+cd chat_with_website
 ```

@@ -57,3 +57,9 @@ First, change to the **chat_with_website** directory
 ```
 cd chat_with_website
 ```
+Next, replace the OpenAI API key in the **app.py** file.
+```
+import os
+os.environ["OPENAI_API_KEY"] = "sk-..."
+api_key = os.getenv("OPENAI_API_KEY")
+```

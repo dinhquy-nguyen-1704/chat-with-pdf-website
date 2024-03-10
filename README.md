@@ -13,7 +13,7 @@ conda activate chat-with-pdf-website
 pip install -r requirements.txt
 ```
 ## 3. Inference
-### 3.1 chat-with-pdf
+### 3.1 chat_with_pdf
 First, change to the **chat_with_pdf** directory and create new folder **models**.
 ```
 cd chat_with_pdf
@@ -52,7 +52,7 @@ Now, you can use chatbot to ask questions about the information in the **your_fi
 python qa_bot.py --question "your_question"
 ```
 
-## 3.2 chat-with-website
+### 3.2 chat_with_website
 First, change to the **chat_with_website** directory
 ```
 cd chat_with_website

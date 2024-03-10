@@ -3,7 +3,7 @@
 ## 2. Getting Started
 ```
 git clone https://github.com/dinhquy-nguyen-1704/chat-with-pdf-website.git
-cd chat-with-pdf-website.git
+cd chat-with-pdf-website
 ```
 ```
 conda create --name chat-with-pdf-website python=3.10
@@ -14,3 +14,7 @@ pip install -r requirements.txt
 ```
 ## 3. Inference
 ### 3.1 chat-with-pdf
+First, change to the **chat-with-pdf** directory.
+```
+cd chat-with-pdf
+```

@@ -39,7 +39,7 @@ Then, download models (**LLM** and **embedding model**) you want to use. In my s
   - 📄 README.md
   - 📄 requirements.txt
 
-After that, run create_vector_db.py
+After that, run file create_vector_db.py
 ```
 python create_vector_db.py
 ```

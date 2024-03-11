@@ -88,6 +88,7 @@ If you have any questions or feedback, please open an issue in this repository <
 or send an email to nguyendinhquythptcla@gmail.com.
 
 ## 5. Reference
+- [langchain-ask-pdf](https://github.com/alejandro-ao/langchain-ask-pdf)
 - [chat-with-websites](https://github.com/alejandro-ao/chat-with-websites)
 - [Langchain](https://python.langchain.com/docs/get_started/introduction)
 - [Retrieval-Augmented Generation](https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2)

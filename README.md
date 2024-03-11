@@ -90,3 +90,4 @@ or send an email to nguyendinhquythptcla@gmail.com.
 ## 5. Reference
 - [chat-with-websites](https://github.com/alejandro-ao/chat-with-websites)
 - [Langchain](https://python.langchain.com/docs/get_started/introduction)
+- [Retrieval-Augmented Generation](https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2)

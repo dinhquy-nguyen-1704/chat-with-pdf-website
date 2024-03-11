@@ -1,6 +1,13 @@
 # chat-with-pdf-website
 ## 1. Introduction
 The codebase demonstrates the fundamental application of RAG for question-answering tasks, leveraging the power of open-source Large Language Models (LLMs) from HuggingFace for interacting with PDFs (**chat_with_pdf**) and utilizing the OpenAI API key for a simple question-answering website (**chat_with_website**).
+<p align="center">
+  <img width="800" alt="Retrieval-Augmented Generation Workflow" src="https://github.com/dinhquy-nguyen-1704/chat-with-pdf-website/assets/127675330/e43d5c1c-bf8d-4275-bea8-3c9e9f3864b9">
+</p>
+<p align="center">
+  <em>Retrieval-Augmented Generation Workflow</em>
+</p>
+
 ## 2. Getting Started
 ```
 git clone https://github.com/dinhquy-nguyen-1704/chat-with-pdf-website.git

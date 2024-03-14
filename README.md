@@ -92,10 +92,20 @@ Change OpenAI API key at the first line of gradio.py
 ```python
 API_KEY = "sk-..."
 ```
-Change youtube_url
+Change **youtube_url**
 ```python
 loader = YoutubeLoader.from_youtube_url("https://www.youtube.com/watch?v=tcqEUSNCn8I", add_video_info=True)
 ```
+Finally, run **gradio.py**, a link to Gradio interface will appear.
+```
+python gradio.py
+```
+<p align="center">
+  <img width="800" alt="Streamlit GUI" src="https://github.com/dinhquy-nguyen-1704/chat-with-pdf-website/assets/127675330/22917f92-bca7-44dc-89e1-4c50ba44adfe">
+</p>
+<p align="center">
+  <em>Streamlit GUI</em>
+</p>
 
 ## 4. Contact
 If you have any questions or feedback, please open an issue in this repository <br/>

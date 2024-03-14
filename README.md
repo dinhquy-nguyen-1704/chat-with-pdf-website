@@ -83,7 +83,7 @@ You can paste a link to any website and ask for information related to that webs
   <em>Streamlit GUI</em>
 </p>
 
-### 3.2 chat_with_video
+### 3.3 chat_with_video
 First, change to the **chat_with_video** directory
 ```
 cd chat_with_video
@@ -91,6 +91,10 @@ cd chat_with_video
 Change OpenAI API key at the first line of gradio.py
 ```python
 API_KEY = "sk-..."
+```
+Change youtube_url
+```python
+loader = YoutubeLoader.from_youtube_url("https://www.youtube.com/watch?v=tcqEUSNCn8I", add_video_info=True)
 ```
 
 ## 4. Contact

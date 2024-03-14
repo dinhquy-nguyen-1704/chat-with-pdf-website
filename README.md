@@ -83,6 +83,16 @@ You can paste a link to any website and ask for information related to that webs
   <em>Streamlit GUI</em>
 </p>
 
+### 3.2 chat_with_video
+First, change to the **chat_with_video** directory
+```
+cd chat_with_video
+```
+Change OpenAI API key at the first line of gradio.py
+```python
+API_KEY = "sk-..."
+```
+
 ## 4. Contact
 If you have any questions or feedback, please open an issue in this repository <br/>
 or send an email to nguyendinhquythptcla@gmail.com.

@@ -101,10 +101,10 @@ Finally, run **gradio.py**, a link to Gradio interface will appear.
 python gradio.py
 ```
 <p align="center">
-  <img width="800" alt="Streamlit GUI" src="https://github.com/dinhquy-nguyen-1704/chat-with-pdf-website/assets/127675330/22917f92-bca7-44dc-89e1-4c50ba44adfe">
+  <img width="800" alt="Gradio" src="https://github.com/dinhquy-nguyen-1704/chat-with-pdf-website/assets/127675330/c3ef6e10-0103-4817-b93c-c7d9c09ff3a9">
 </p>
 <p align="center">
-  <em>Streamlit GUI</em>
+  <em>Gradio</em>
 </p>
 
 ## 4. Contact
